@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293993CED0175568A8C892E2 /* Pods_swift_polyv_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701684E2FBBC64C448E1E4B /* Pods_swift_polyv_demo.framework */; };
+		B3A65C90235EF7D9007DE2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A65C8F235EF7D9007DE2F5 /* AppDelegate.swift */; };
+		B3A65C94235EF7D9007DE2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A65C93235EF7D9007DE2F5 /* ViewController.swift */; };
+		B3A65C99235EF7DF007DE2F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A65C98235EF7DF007DE2F5 /* Assets.xcassets */; };
+		B3A65C9C235EF7DF007DE2F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3A65C9A235EF7DF007DE2F5 /* LaunchScreen.storyboard */; };
+		B3A65CE6235EFBB4007DE2F5 /* PLVVodPlayerSkin.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A65CA7235EFBB4007DE2F5 /* PLVVodPlayerSkin.xib */; };
+		B3A65CE7235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CA9235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.m */; };
+		B3A65CE8235EFBB4007DE2F5 /* PLVVodPlayTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CAC235EFBB4007DE2F5 /* PLVVodPlayTipsView.m */; };
+		B3A65CE9235EFBB4007DE2F5 /* PLVVodRouteLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB1235EFBB4007DE2F5 /* PLVVodRouteLineView.m */; };
+		B3A65CEA235EFBB4007DE2F5 /* PLVVodDanmuSendView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB2235EFBB4007DE2F5 /* PLVVodDanmuSendView.m */; };
+		B3A65CEB235EFBB4007DE2F5 /* PLVVodCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB3235EFBB4007DE2F5 /* PLVVodCoverView.m */; };
+		B3A65CEC235EFBB4007DE2F5 /* PLVVodFullscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB6235EFBB4007DE2F5 /* PLVVodFullscreenView.m */; };
+		B3A65CED235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB8235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.m */; };
+		B3A65CEE235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CB9235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.m */; };
+		B3A65CEF235EFBB4007DE2F5 /* PLVVodNetworkTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CBE235EFBB4007DE2F5 /* PLVVodNetworkTipsView.m */; };
+		B3A65CF0235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CBF235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.m */; };
+		B3A65CF1235EFBB4007DE2F5 /* PLVVodSettingPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CC0235EFBB4007DE2F5 /* PLVVodSettingPanelView.m */; };
+		B3A65CF2235EFBB4007DE2F5 /* PLVVodShrinkscreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CC1235EFBB4007DE2F5 /* PLVVodShrinkscreenView.m */; };
+		B3A65CF3235EFBB4007DE2F5 /* PLVVodLockScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CC2235EFBB4007DE2F5 /* PLVVodLockScreenView.m */; };
+		B3A65CF4235EFBB4007DE2F5 /* PLVVodPlayerSkin.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CC4235EFBB4007DE2F5 /* PLVVodPlayerSkin.m */; };
+		B3A65CF5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CC5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.m */; };
+		B3A65CF6235EFBB4007DE2F5 /* NSString+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CCA235EFBB4007DE2F5 /* NSString+PLVVod.m */; };
+		B3A65CF7235EFBB4007DE2F5 /* UIColor+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CCE235EFBB4007DE2F5 /* UIColor+PLVVod.m */; };
+		B3A65CF8235EFBB4007DE2F5 /* UINavigationController+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CCF235EFBB4007DE2F5 /* UINavigationController+PLVVod.m */; };
+		B3A65CF9235EFBB4007DE2F5 /* UIControl+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CD0235EFBB4007DE2F5 /* UIControl+PLVVod.m */; };
+		B3A65CFA235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CD2235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.m */; };
+		B3A65CFB235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CD3235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.m */; };
+		B3A65CFC235EFBB4007DE2F5 /* UIView+PLVVod.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CD4235EFBB4007DE2F5 /* UIView+PLVVod.m */; };
+		B3A65CFD235EFBB4007DE2F5 /* PLVVodResources.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3A65CD5235EFBB4007DE2F5 /* PLVVodResources.xcassets */; };
+		B3A65CFE235EFBB4007DE2F5 /* PLVVodExamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CD7235EFBB4007DE2F5 /* PLVVodExamViewController.m */; };
+		B3A65CFF235EFBB4007DE2F5 /* PLVVodExamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A65CD8235EFBB4007DE2F5 /* PLVVodExamViewController.xib */; };
+		B3A65D00235EFBB4007DE2F5 /* PLVVodExamTestData.json in Resources */ = {isa = PBXBuildFile; fileRef = B3A65CDA235EFBB4007DE2F5 /* PLVVodExamTestData.json */; };
+		B3A65D01235EFBB4007DE2F5 /* PLVVodQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CDE235EFBB4007DE2F5 /* PLVVodQuestion.m */; };
+		B3A65D02235EFBB4007DE2F5 /* PLVVodQuestionView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CDF235EFBB4007DE2F5 /* PLVVodQuestionView.m */; };
+		B3A65D03235EFBB4007DE2F5 /* PLVVodOptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CE0235EFBB4007DE2F5 /* PLVVodOptionCell.m */; };
+		B3A65D04235EFBB4007DE2F5 /* PLVVodOptionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3A65CE1235EFBB4007DE2F5 /* PLVVodOptionCell.xib */; };
+		B3A65D05235EFBB4007DE2F5 /* PLVVodExplanationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65CE4235EFBB4007DE2F5 /* PLVVodExplanationView.m */; };
+		B3A65D08235EFCAF007DE2F5 /* PLVNetworkUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65D06235EFCAF007DE2F5 /* PLVNetworkUtil.m */; };
+		B3A65D0B235EFD75007DE2F5 /* PLVDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A65D0A235EFD75007DE2F5 /* PLVDemo.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3701684E2FBBC64C448E1E4B /* Pods_swift_polyv_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_polyv_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91BEA334353EBCA5FC55C750 /* Pods-swift_polyv_demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_polyv_demo.release.xcconfig"; path = "Target Support Files/Pods-swift_polyv_demo/Pods-swift_polyv_demo.release.xcconfig"; sourceTree = "<group>"; };
+		B3A65C8C235EF7D9007DE2F5 /* swift_polyv_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swift_polyv_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A65C8F235EF7D9007DE2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3A65C93235EF7D9007DE2F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B3A65C98235EF7DF007DE2F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3A65C9B235EF7DF007DE2F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3A65C9D235EF7DF007DE2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3A65CA5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSkinPlayerController.h; sourceTree = "<group>"; };
+		B3A65CA6235EFBB4007DE2F5 /* PLVVodPlayerSkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayerSkin.h; sourceTree = "<group>"; };
+		B3A65CA7235EFBB4007DE2F5 /* PLVVodPlayerSkin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodPlayerSkin.xib; sourceTree = "<group>"; };
+		B3A65CA9235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDefinitionPanelView.m; sourceTree = "<group>"; };
+		B3A65CAB235EFBB4007DE2F5 /* PLVVodPlayTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlayTipsView.h; sourceTree = "<group>"; };
+		B3A65CAC235EFBB4007DE2F5 /* PLVVodPlayTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayTipsView.m; sourceTree = "<group>"; };
+		B3A65CAD235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodPlaybackRatePanelView.h; sourceTree = "<group>"; };
+		B3A65CAE235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodGestureIndicatorView.h; sourceTree = "<group>"; };
+		B3A65CAF235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodAudioCoverPanelView.h; sourceTree = "<group>"; };
+		B3A65CB0235EFBB4007DE2F5 /* PLVVodNetworkTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodNetworkTipsView.h; sourceTree = "<group>"; };
+		B3A65CB1235EFBB4007DE2F5 /* PLVVodRouteLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodRouteLineView.m; sourceTree = "<group>"; };
+		B3A65CB2235EFBB4007DE2F5 /* PLVVodDanmuSendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodDanmuSendView.m; sourceTree = "<group>"; };
+		B3A65CB3235EFBB4007DE2F5 /* PLVVodCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodCoverView.m; sourceTree = "<group>"; };
+		B3A65CB4235EFBB4007DE2F5 /* PLVVodShrinkscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodShrinkscreenView.h; sourceTree = "<group>"; };
+		B3A65CB5235EFBB4007DE2F5 /* PLVVodSettingPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodSettingPanelView.h; sourceTree = "<group>"; };
+		B3A65CB6235EFBB4007DE2F5 /* PLVVodFullscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodFullscreenView.m; sourceTree = "<group>"; };
+		B3A65CB7235EFBB4007DE2F5 /* PLVVodLockScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodLockScreenView.h; sourceTree = "<group>"; };
+		B3A65CB8235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodGestureIndicatorView.m; sourceTree = "<group>"; };
+		B3A65CB9235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlaybackRatePanelView.m; sourceTree = "<group>"; };
+		B3A65CBA235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDefinitionPanelView.h; sourceTree = "<group>"; };
+		B3A65CBB235EFBB4007DE2F5 /* PLVVodCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodCoverView.h; sourceTree = "<group>"; };
+		B3A65CBC235EFBB4007DE2F5 /* PLVVodDanmuSendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodDanmuSendView.h; sourceTree = "<group>"; };
+		B3A65CBD235EFBB4007DE2F5 /* PLVVodRouteLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodRouteLineView.h; sourceTree = "<group>"; };
+		B3A65CBE235EFBB4007DE2F5 /* PLVVodNetworkTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodNetworkTipsView.m; sourceTree = "<group>"; };
+		B3A65CBF235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodAudioCoverPanelView.m; sourceTree = "<group>"; };
+		B3A65CC0235EFBB4007DE2F5 /* PLVVodSettingPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSettingPanelView.m; sourceTree = "<group>"; };
+		B3A65CC1235EFBB4007DE2F5 /* PLVVodShrinkscreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodShrinkscreenView.m; sourceTree = "<group>"; };
+		B3A65CC2235EFBB4007DE2F5 /* PLVVodLockScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodLockScreenView.m; sourceTree = "<group>"; };
+		B3A65CC3235EFBB4007DE2F5 /* PLVVodFullscreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodFullscreenView.h; sourceTree = "<group>"; };
+		B3A65CC4235EFBB4007DE2F5 /* PLVVodPlayerSkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodPlayerSkin.m; sourceTree = "<group>"; };
+		B3A65CC5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodSkinPlayerController.m; sourceTree = "<group>"; };
+		B3A65CC7235EFBB4007DE2F5 /* UIControl+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CC8235EFBB4007DE2F5 /* UIColor+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CC9235EFBB4007DE2F5 /* UINavigationController+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CCA235EFBB4007DE2F5 /* NSString+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CCB235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PLVVodDanmu+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CCC235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		B3A65CCD235EFBB4007DE2F5 /* UIView+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CCE235EFBB4007DE2F5 /* UIColor+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CCF235EFBB4007DE2F5 /* UINavigationController+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CD0235EFBB4007DE2F5 /* UIControl+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CD1235EFBB4007DE2F5 /* NSString+PLVVod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PLVVod.h"; sourceTree = "<group>"; };
+		B3A65CD2235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		B3A65CD3235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PLVVodDanmu+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CD4235EFBB4007DE2F5 /* UIView+PLVVod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PLVVod.m"; sourceTree = "<group>"; };
+		B3A65CD5235EFBB4007DE2F5 /* PLVVodResources.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PLVVodResources.xcassets; sourceTree = "<group>"; };
+		B3A65CD7235EFBB4007DE2F5 /* PLVVodExamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExamViewController.m; sourceTree = "<group>"; };
+		B3A65CD8235EFBB4007DE2F5 /* PLVVodExamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodExamViewController.xib; sourceTree = "<group>"; };
+		B3A65CD9235EFBB4007DE2F5 /* PLVVodExamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExamViewController.h; sourceTree = "<group>"; };
+		B3A65CDA235EFBB4007DE2F5 /* PLVVodExamTestData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PLVVodExamTestData.json; sourceTree = "<group>"; };
+		B3A65CDC235EFBB4007DE2F5 /* PLVVodQuestionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestionView.h; sourceTree = "<group>"; };
+		B3A65CDD235EFBB4007DE2F5 /* PLVVodOptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodOptionCell.h; sourceTree = "<group>"; };
+		B3A65CDE235EFBB4007DE2F5 /* PLVVodQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestion.m; sourceTree = "<group>"; };
+		B3A65CDF235EFBB4007DE2F5 /* PLVVodQuestionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodQuestionView.m; sourceTree = "<group>"; };
+		B3A65CE0235EFBB4007DE2F5 /* PLVVodOptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodOptionCell.m; sourceTree = "<group>"; };
+		B3A65CE1235EFBB4007DE2F5 /* PLVVodOptionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLVVodOptionCell.xib; sourceTree = "<group>"; };
+		B3A65CE2235EFBB4007DE2F5 /* PLVVodQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodQuestion.h; sourceTree = "<group>"; };
+		B3A65CE4235EFBB4007DE2F5 /* PLVVodExplanationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVVodExplanationView.m; sourceTree = "<group>"; };
+		B3A65CE5235EFBB4007DE2F5 /* PLVVodExplanationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVVodExplanationView.h; sourceTree = "<group>"; };
+		B3A65D06235EFCAF007DE2F5 /* PLVNetworkUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLVNetworkUtil.m; sourceTree = "<group>"; };
+		B3A65D07235EFCAF007DE2F5 /* PLVNetworkUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLVNetworkUtil.h; sourceTree = "<group>"; };
+		B3A65D09235EFD75007DE2F5 /* PLVDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PLVDemo.h; sourceTree = "<group>"; };
+		B3A65D0A235EFD75007DE2F5 /* PLVDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PLVDemo.m; sourceTree = "<group>"; };
+		B3A65D0C235EFDD3007DE2F5 /* swift_polyv_demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift_polyv_demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E7CC325C0584A2742BA7F31F /* Pods-swift_polyv_demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift_polyv_demo.debug.xcconfig"; path = "Target Support Files/Pods-swift_polyv_demo/Pods-swift_polyv_demo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3A65C89235EF7D9007DE2F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293993CED0175568A8C892E2 /* Pods_swift_polyv_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CFF498C47514883773F3541 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7CC325C0584A2742BA7F31F /* Pods-swift_polyv_demo.debug.xcconfig */,
+				91BEA334353EBCA5FC55C750 /* Pods-swift_polyv_demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B16F9283D69925B7337EA059 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3701684E2FBBC64C448E1E4B /* Pods_swift_polyv_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A65C83235EF7D9007DE2F5 = {
+			isa = PBXGroup;
+			children = (
+				B3A65C8E235EF7D9007DE2F5 /* swift_polyv_demo */,
+				B3A65C8D235EF7D9007DE2F5 /* Products */,
+				1CFF498C47514883773F3541 /* Pods */,
+				B16F9283D69925B7337EA059 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3A65C8D235EF7D9007DE2F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65C8C235EF7D9007DE2F5 /* swift_polyv_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3A65C8E235EF7D9007DE2F5 /* swift_polyv_demo */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65D07235EFCAF007DE2F5 /* PLVNetworkUtil.h */,
+				B3A65D06235EFCAF007DE2F5 /* PLVNetworkUtil.m */,
+				B3A65CA3235EFBB4007DE2F5 /* PolyvOpenSourceModule */,
+				B3A65C8F235EF7D9007DE2F5 /* AppDelegate.swift */,
+				B3A65C93235EF7D9007DE2F5 /* ViewController.swift */,
+				B3A65C98235EF7DF007DE2F5 /* Assets.xcassets */,
+				B3A65C9A235EF7DF007DE2F5 /* LaunchScreen.storyboard */,
+				B3A65C9D235EF7DF007DE2F5 /* Info.plist */,
+				B3A65D09235EFD75007DE2F5 /* PLVDemo.h */,
+				B3A65D0A235EFD75007DE2F5 /* PLVDemo.m */,
+				B3A65D0C235EFDD3007DE2F5 /* swift_polyv_demo-Bridging-Header.h */,
+			);
+			path = swift_polyv_demo;
+			sourceTree = "<group>";
+		};
+		B3A65CA3235EFBB4007DE2F5 /* PolyvOpenSourceModule */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CA4235EFBB4007DE2F5 /* Skin */,
+				B3A65CC6235EFBB4007DE2F5 /* Category */,
+				B3A65CD5235EFBB4007DE2F5 /* PLVVodResources.xcassets */,
+				B3A65CD6235EFBB4007DE2F5 /* Exam */,
+			);
+			path = PolyvOpenSourceModule;
+			sourceTree = "<group>";
+		};
+		B3A65CA4235EFBB4007DE2F5 /* Skin */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CA5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.h */,
+				B3A65CA6235EFBB4007DE2F5 /* PLVVodPlayerSkin.h */,
+				B3A65CA7235EFBB4007DE2F5 /* PLVVodPlayerSkin.xib */,
+				B3A65CA8235EFBB4007DE2F5 /* View */,
+				B3A65CC4235EFBB4007DE2F5 /* PLVVodPlayerSkin.m */,
+				B3A65CC5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.m */,
+			);
+			path = Skin;
+			sourceTree = "<group>";
+		};
+		B3A65CA8235EFBB4007DE2F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CA9235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.m */,
+				B3A65CAA235EFBB4007DE2F5 /* PlayTips */,
+				B3A65CAD235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.h */,
+				B3A65CAE235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.h */,
+				B3A65CAF235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.h */,
+				B3A65CB0235EFBB4007DE2F5 /* PLVVodNetworkTipsView.h */,
+				B3A65CB1235EFBB4007DE2F5 /* PLVVodRouteLineView.m */,
+				B3A65CB2235EFBB4007DE2F5 /* PLVVodDanmuSendView.m */,
+				B3A65CB3235EFBB4007DE2F5 /* PLVVodCoverView.m */,
+				B3A65CB4235EFBB4007DE2F5 /* PLVVodShrinkscreenView.h */,
+				B3A65CB5235EFBB4007DE2F5 /* PLVVodSettingPanelView.h */,
+				B3A65CB6235EFBB4007DE2F5 /* PLVVodFullscreenView.m */,
+				B3A65CB7235EFBB4007DE2F5 /* PLVVodLockScreenView.h */,
+				B3A65CB8235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.m */,
+				B3A65CB9235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.m */,
+				B3A65CBA235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.h */,
+				B3A65CBB235EFBB4007DE2F5 /* PLVVodCoverView.h */,
+				B3A65CBC235EFBB4007DE2F5 /* PLVVodDanmuSendView.h */,
+				B3A65CBD235EFBB4007DE2F5 /* PLVVodRouteLineView.h */,
+				B3A65CBE235EFBB4007DE2F5 /* PLVVodNetworkTipsView.m */,
+				B3A65CBF235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.m */,
+				B3A65CC0235EFBB4007DE2F5 /* PLVVodSettingPanelView.m */,
+				B3A65CC1235EFBB4007DE2F5 /* PLVVodShrinkscreenView.m */,
+				B3A65CC2235EFBB4007DE2F5 /* PLVVodLockScreenView.m */,
+				B3A65CC3235EFBB4007DE2F5 /* PLVVodFullscreenView.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3A65CAA235EFBB4007DE2F5 /* PlayTips */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CAB235EFBB4007DE2F5 /* PLVVodPlayTipsView.h */,
+				B3A65CAC235EFBB4007DE2F5 /* PLVVodPlayTipsView.m */,
+			);
+			path = PlayTips;
+			sourceTree = "<group>";
+		};
+		B3A65CC6235EFBB4007DE2F5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CC7235EFBB4007DE2F5 /* UIControl+PLVVod.h */,
+				B3A65CC8235EFBB4007DE2F5 /* UIColor+PLVVod.h */,
+				B3A65CC9235EFBB4007DE2F5 /* UINavigationController+PLVVod.h */,
+				B3A65CCA235EFBB4007DE2F5 /* NSString+PLVVod.m */,
+				B3A65CCB235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.h */,
+				B3A65CCC235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.h */,
+				B3A65CCD235EFBB4007DE2F5 /* UIView+PLVVod.h */,
+				B3A65CCE235EFBB4007DE2F5 /* UIColor+PLVVod.m */,
+				B3A65CCF235EFBB4007DE2F5 /* UINavigationController+PLVVod.m */,
+				B3A65CD0235EFBB4007DE2F5 /* UIControl+PLVVod.m */,
+				B3A65CD1235EFBB4007DE2F5 /* NSString+PLVVod.h */,
+				B3A65CD2235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.m */,
+				B3A65CD3235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.m */,
+				B3A65CD4235EFBB4007DE2F5 /* UIView+PLVVod.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B3A65CD6235EFBB4007DE2F5 /* Exam */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CD7235EFBB4007DE2F5 /* PLVVodExamViewController.m */,
+				B3A65CD8235EFBB4007DE2F5 /* PLVVodExamViewController.xib */,
+				B3A65CD9235EFBB4007DE2F5 /* PLVVodExamViewController.h */,
+				B3A65CDA235EFBB4007DE2F5 /* PLVVodExamTestData.json */,
+				B3A65CDB235EFBB4007DE2F5 /* QuestionView */,
+				B3A65CE3235EFBB4007DE2F5 /* ExplanationView */,
+			);
+			path = Exam;
+			sourceTree = "<group>";
+		};
+		B3A65CDB235EFBB4007DE2F5 /* QuestionView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CDC235EFBB4007DE2F5 /* PLVVodQuestionView.h */,
+				B3A65CDD235EFBB4007DE2F5 /* PLVVodOptionCell.h */,
+				B3A65CDE235EFBB4007DE2F5 /* PLVVodQuestion.m */,
+				B3A65CDF235EFBB4007DE2F5 /* PLVVodQuestionView.m */,
+				B3A65CE0235EFBB4007DE2F5 /* PLVVodOptionCell.m */,
+				B3A65CE1235EFBB4007DE2F5 /* PLVVodOptionCell.xib */,
+				B3A65CE2235EFBB4007DE2F5 /* PLVVodQuestion.h */,
+			);
+			path = QuestionView;
+			sourceTree = "<group>";
+		};
+		B3A65CE3235EFBB4007DE2F5 /* ExplanationView */ = {
+			isa = PBXGroup;
+			children = (
+				B3A65CE4235EFBB4007DE2F5 /* PLVVodExplanationView.m */,
+				B3A65CE5235EFBB4007DE2F5 /* PLVVodExplanationView.h */,
+			);
+			path = ExplanationView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3A65C8B235EF7D9007DE2F5 /* swift_polyv_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3A65CA0235EF7DF007DE2F5 /* Build configuration list for PBXNativeTarget "swift_polyv_demo" */;
+			buildPhases = (
+				AC92AEEA802E301D535E7D19 /* [CP] Check Pods Manifest.lock */,
+				B3A65C88235EF7D9007DE2F5 /* Sources */,
+				B3A65C89235EF7D9007DE2F5 /* Frameworks */,
+				B3A65C8A235EF7D9007DE2F5 /* Resources */,
+				A78D192EC585F6FA96146EAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swift_polyv_demo;
+			productName = swift_polyv_demo;
+			productReference = B3A65C8C235EF7D9007DE2F5 /* swift_polyv_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3A65C84235EF7D9007DE2F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "高效码农";
+				TargetAttributes = {
+					B3A65C8B235EF7D9007DE2F5 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = B3A65C87235EF7D9007DE2F5 /* Build configuration list for PBXProject "swift_polyv_demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3A65C83235EF7D9007DE2F5;
+			productRefGroup = B3A65C8D235EF7D9007DE2F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3A65C8B235EF7D9007DE2F5 /* swift_polyv_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3A65C8A235EF7D9007DE2F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A65CFF235EFBB4007DE2F5 /* PLVVodExamViewController.xib in Resources */,
+				B3A65C9C235EF7DF007DE2F5 /* LaunchScreen.storyboard in Resources */,
+				B3A65CE6235EFBB4007DE2F5 /* PLVVodPlayerSkin.xib in Resources */,
+				B3A65D00235EFBB4007DE2F5 /* PLVVodExamTestData.json in Resources */,
+				B3A65CFD235EFBB4007DE2F5 /* PLVVodResources.xcassets in Resources */,
+				B3A65C99235EF7DF007DE2F5 /* Assets.xcassets in Resources */,
+				B3A65D04235EFBB4007DE2F5 /* PLVVodOptionCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A78D192EC585F6FA96146EAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift_polyv_demo/Pods-swift_polyv_demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swift_polyv_demo/Pods-swift_polyv_demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swift_polyv_demo/Pods-swift_polyv_demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC92AEEA802E301D535E7D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swift_polyv_demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3A65C88235EF7D9007DE2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3A65CEF235EFBB4007DE2F5 /* PLVVodNetworkTipsView.m in Sources */,
+				B3A65D03235EFBB4007DE2F5 /* PLVVodOptionCell.m in Sources */,
+				B3A65C94235EF7D9007DE2F5 /* ViewController.swift in Sources */,
+				B3A65CF1235EFBB4007DE2F5 /* PLVVodSettingPanelView.m in Sources */,
+				B3A65CEB235EFBB4007DE2F5 /* PLVVodCoverView.m in Sources */,
+				B3A65CEC235EFBB4007DE2F5 /* PLVVodFullscreenView.m in Sources */,
+				B3A65CEE235EFBB4007DE2F5 /* PLVVodPlaybackRatePanelView.m in Sources */,
+				B3A65D01235EFBB4007DE2F5 /* PLVVodQuestion.m in Sources */,
+				B3A65CF0235EFBB4007DE2F5 /* PLVVodAudioCoverPanelView.m in Sources */,
+				B3A65CF9235EFBB4007DE2F5 /* UIControl+PLVVod.m in Sources */,
+				B3A65CE7235EFBB4007DE2F5 /* PLVVodDefinitionPanelView.m in Sources */,
+				B3A65CF5235EFBB4007DE2F5 /* PLVVodSkinPlayerController.m in Sources */,
+				B3A65CE9235EFBB4007DE2F5 /* PLVVodRouteLineView.m in Sources */,
+				B3A65CF8235EFBB4007DE2F5 /* UINavigationController+PLVVod.m in Sources */,
+				B3A65CF6235EFBB4007DE2F5 /* NSString+PLVVod.m in Sources */,
+				B3A65D0B235EFD75007DE2F5 /* PLVDemo.m in Sources */,
+				B3A65CFA235EFBB4007DE2F5 /* UIButton+EnlargeTouchArea.m in Sources */,
+				B3A65D02235EFBB4007DE2F5 /* PLVVodQuestionView.m in Sources */,
+				B3A65CF3235EFBB4007DE2F5 /* PLVVodLockScreenView.m in Sources */,
+				B3A65CF7235EFBB4007DE2F5 /* UIColor+PLVVod.m in Sources */,
+				B3A65CF4235EFBB4007DE2F5 /* PLVVodPlayerSkin.m in Sources */,
+				B3A65D05235EFBB4007DE2F5 /* PLVVodExplanationView.m in Sources */,
+				B3A65CFC235EFBB4007DE2F5 /* UIView+PLVVod.m in Sources */,
+				B3A65C90235EF7D9007DE2F5 /* AppDelegate.swift in Sources */,
+				B3A65D08235EFCAF007DE2F5 /* PLVNetworkUtil.m in Sources */,
+				B3A65CFB235EFBB4007DE2F5 /* PLVVodDanmu+PLVVod.m in Sources */,
+				B3A65CF2235EFBB4007DE2F5 /* PLVVodShrinkscreenView.m in Sources */,
+				B3A65CFE235EFBB4007DE2F5 /* PLVVodExamViewController.m in Sources */,
+				B3A65CED235EFBB4007DE2F5 /* PLVVodGestureIndicatorView.m in Sources */,
+				B3A65CE8235EFBB4007DE2F5 /* PLVVodPlayTipsView.m in Sources */,
+				B3A65CEA235EFBB4007DE2F5 /* PLVVodDanmuSendView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3A65C9A235EF7DF007DE2F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3A65C9B235EF7DF007DE2F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3A65C9E235EF7DF007DE2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B3A65C9F235EF7DF007DE2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3A65CA1235EF7DF007DE2F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7CC325C0584A2742BA7F31F /* Pods-swift_polyv_demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swift_polyv_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xugj.swift-polyv-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_polyv_demo/swift_polyv_demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3A65CA2235EF7DF007DE2F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91BEA334353EBCA5FC55C750 /* Pods-swift_polyv_demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = swift_polyv_demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xugj.swift-polyv-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift_polyv_demo/swift_polyv_demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3A65C87235EF7D9007DE2F5 /* Build configuration list for PBXProject "swift_polyv_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A65C9E235EF7DF007DE2F5 /* Debug */,
+				B3A65C9F235EF7DF007DE2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A65CA0235EF7DF007DE2F5 /* Build configuration list for PBXNativeTarget "swift_polyv_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3A65CA1235EF7DF007DE2F5 /* Debug */,
+				B3A65CA2235EF7DF007DE2F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3A65C84235EF7D9007DE2F5 /* Project object */;
+}
