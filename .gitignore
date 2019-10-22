@@ -69,3 +69,5 @@ fastlane/test_output
 
 swift_polyv_demo.xcworkspace
 Podfile.lock
+Pods/**
+.DS_Store
